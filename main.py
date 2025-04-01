@@ -1,6 +1,7 @@
 import logging
 from aiogram import Bot, Dispatcher, types
-from aiogram.types import ParseMode, InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.enums import ParseMode
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils import executor
 from datetime import datetime
 import openpyxl
